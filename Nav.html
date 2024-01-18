@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+</head>
+
+<body>
+
+<header>
+<h1>Your Website Name</h1>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section>
+<article>
+<h2>Images</h2>
+<img src="path/to/your/image.jpg" alt="Description of the image">
+</article>
+
+<article>
+<h2>Forms</h2>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required>
+
+<label>Gender:</label>
+<label for="male"><input type="radio" id="male" name="gender" value="Male"> Male</label>
+<label for="female"><input type="radio" id="female" name="gender" value="Female"> Female</label>
+
+<label><input type="checkbox" id="terms" name="terms" required> Accept Terms and Conditions</label>
+
+<input type="submit" value="Submit">
+</form>
+</article>
+
+<article>
+<h2>Tables</h2>
+<table>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>City</th>
+</tr>
+<tr>
+<td>John</td>
+<td>25</td>
+<td>New York</td>
+</tr>
+<tr>
+<td>Jane</td>
+<td>30</td>
+<td>Los Angeles</td>
+</tr>
+</table>
+</article>
+
+<article>
+<h2>HTML5 Features</h2>
+<nav>
+<!-- Navigation links -->
+</nav>
+<header>
+<!-- Page header content -->
+</header>
+<footer>
+<!-- Page footer content -->
+</footer>
+<figure>
+<img src="path/to/your/image.jpg" alt="Description of the image">
+<figcaption>Caption for the image</figcaption>
+</figure>
+</article>
+
+<article>
+<h2>Audio and Video</h2>
+<audio controls>
+<source src="path/to/your/audio.mp3" type="audio/mp3">
+Your browser does not support the audio tag.
+</audio>
+<video width="320" height="240" controls>
+<source src="path/to/your/video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</article>
+
+<article>
+<h2>HTML Forms and Validation</h2>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required minlength="3">
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+title="Must contain at least one digit, one lowercase and one uppercase letter, and at least 8 or more characters">
+
+<label>Gender:</label>
+<!-- Radio buttons for gender -->
+
+<label><input type="checkbox" id="terms" name="terms" required> Accept Terms and Conditions</label>
+
+<input type="submit" value="Submit">
+</form>
+</article>
+</section>
+
+</body>
+
+</html>
